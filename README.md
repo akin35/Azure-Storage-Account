@@ -10,7 +10,7 @@ During this project below steps will be followed.
 6.	Manage network access for Azure Storage 
 
 
-Solution:
+## Solution:
 
 ### 1.	Provision the lab environment
 * As a lab environment in the first step Azure VM will deploy.
