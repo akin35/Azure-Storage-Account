@@ -1,0 +1,55 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/658b7aa8-6d79-4894-a694-a6e0220fdcae/resourceGroups/az104-06-rg1/providers/Microsoft.Storage/storageAccounts/storageaccountakin104",
+    "name": "storageaccountakin104",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [
+                {
+                    "value": "174.112.118.42",
+                    "action": "Allow"
+                }
+            ],
+            "defaultAction": "Deny"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-11-10T18:06:19.1405578Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-11-10T18:06:19.1405578Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Cool",
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-11-10T18:06:18.9843092Z",
+        "primaryEndpoints": {
+            "dfs": "https://storageaccountakin104.dfs.core.windows.net/",
+            "web": "https://storageaccountakin104.z13.web.core.windows.net/",
+            "blob": "https://storageaccountakin104.blob.core.windows.net/",
+            "queue": "https://storageaccountakin104.queue.core.windows.net/",
+            "table": "https://storageaccountakin104.table.core.windows.net/",
+            "file": "https://storageaccountakin104.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available"
+    }
+}

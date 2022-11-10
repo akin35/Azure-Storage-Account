@@ -1,0 +1,52 @@
+{
+    "name": "az104-07-vm0",
+    "id": "/subscriptions/658b7aa8-6d79-4894-a694-a6e0220fdcae/resourceGroups/az104-07-rg0/providers/Microsoft.Compute/virtualMachines/az104-07-vm0",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "eastus",
+    "properties": {
+        "vmId": "c8f01589-96fb-4e3d-9bd0-36bc767c6705",
+        "hardwareProfile": {
+            "vmSize": "Standard_D2s_v3"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "MicrosoftWindowsServer",
+                "offer": "WindowsServer",
+                "sku": "2019-Datacenter",
+                "version": "latest"
+            },
+            "osDisk": {
+                "osType": "Windows",
+                "name": "az104-07-vm0_disk1_7bb716fae9e046d1bc9989905e473acc",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "storageAccountType": "Premium_LRS",
+                    "id": "/subscriptions/658b7aa8-6d79-4894-a694-a6e0220fdcae/resourceGroups/az104-07-rg0/providers/Microsoft.Compute/disks/az104-07-vm0_disk1_7bb716fae9e046d1bc9989905e473acc"
+                },
+                "diskSizeGB": 127
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "az104-07-vm0",
+            "adminUsername": "Student",
+            "windowsConfiguration": {
+                "provisionVMAgent": true,
+                "enableAutomaticUpdates": true
+            },
+            "secrets": []
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/658b7aa8-6d79-4894-a694-a6e0220fdcae/resourceGroups/az104-07-rg0/providers/Microsoft.Network/networkInterfaces/az104-07-nic0",
+                    "properties": {
+                        "primary": true
+                    }
+                }
+            ]
+        },
+        "provisioningState": "Succeeded"
+    }
+}
