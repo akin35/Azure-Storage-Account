@@ -1,5 +1,5 @@
 ## Azure-Storage-Account
-This repo is about Azure Storage Account create and configure
+
 During this project below steps will be followed. 
 
 1.	Provision the lab environment
